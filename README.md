@@ -17,7 +17,7 @@ Welcome to the **IMDB Clone**! 🎥 This project is a sleek and modern clone of 
 - **API**: TMDB API 🍿
 
 ## 🎞️Live Preview🎞️
-### ![Click Here](https://imdb-clone-self-omega.vercel.app/)
+### [Click Here](https://imdb-clone-self-omega.vercel.app/)
 
 
 
