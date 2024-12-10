@@ -26,7 +26,7 @@ Welcome to the **IMDB Clone**! 🎥 This project is a sleek and modern clone of 
 
 Here’s a sneak peek of what the app looks like:
 
-![App Screenshot](https://via.placeholder.com/800x400)
+![App Screenshot](https://github.com/Saquib-Anjum/IMDB-Clone/blob/main/src/assets/Untitled%20design%20(2).png)
 
 ## ⚡ Getting Started
 
