@@ -16,7 +16,13 @@ Welcome to the **IMDB Clone**! 🎥 This project is a sleek and modern clone of 
 - **Styling**: Tailwind CSS 🌈
 - **API**: TMDB API 🍿
 
+## 🎞️Live Preview🎞️
+### [Click Here](https://imdb-clone-self-omega.vercel.app/)
+
+
+
 ## 📸 Screenshots
+
 
 Here’s a sneak peek of what the app looks like:
 
@@ -38,3 +44,6 @@ To run this app locally, you’ll need the following:
    ```bash
    git clone https://github.com/yourusername/imdb-clone.git
    cd imdb-clone
+
+
+
