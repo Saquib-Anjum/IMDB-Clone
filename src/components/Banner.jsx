@@ -5,7 +5,7 @@ function Banner() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_KEY = "1febc1b364daf26d9126ee67ce8ae3c9";
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const BASE_URL = "https://api.themoviedb.org/3";
 
   useEffect(() => {
@@ -38,7 +38,7 @@ let randomNumber = Math.floor(Math.random() * 10)+1
 
   return (
     <div
-      className="h-[500px] w-[100vw] bg-center bg-cover flex items-end justify-center"
+      className="w-full h-[70vh] bg-top bg-cover flex items-end justify-center bg-no-repeat"
       style={{
         backgroundImage: `url(https://image.tmdb.org/t/p/original/${movies[randomNumber]?.backdrop_path})`,
       }}

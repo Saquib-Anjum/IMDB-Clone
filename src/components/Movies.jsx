@@ -25,7 +25,8 @@ const [hover,setHover] = useState();
     fetchPopularMovies();
   });
 // fetching API
-  const API_KEY = "1febc1b364daf26d9126ee67ce8ae3c9";
+const API_KEY = import.meta.env.VITE_API_KEY;
+
   const BASE_URL = "https://api.themoviedb.org/3";
 
   const fetchPopularMovies = async () => {
