@@ -26,8 +26,8 @@ function Favourites() {
   //set favourite in the state from the localstorage
   const [favourite, setFavourite] = useState([]);
   useEffect(() => {
-    let oldFav = localStorage.getItem("imdb") ||[];
-    oldFav = JSON.parse(oldFav);
+    let oldFav = localStorage.getItem("imdb")
+    oldFav = oldFav ? JSON.parse(oldFav) : [];
     setFavourite([...oldFav]);
   }, []);
   // for the genres ->crime Action etc

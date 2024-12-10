@@ -41,8 +41,8 @@ const API_KEY = import.meta.env.VITE_API_KEY;
       console.log(response.data.results);
       setMovies(response.data.results);
 
-      let oldFav = localStorage.getItem('imdb')||[]
-      oldFav= JSON.parse(oldFav);
+      let oldFav = localStorage.getItem('imdb');
+      oldFav = oldFav ? JSON.parse(oldFav) : [];
       setFavourite([...oldFav])
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -52,7 +52,7 @@ const API_KEY = import.meta.env.VITE_API_KEY;
   function add(movie){
  let newArray= [...favourite,movie];
  setFavourite([...newArray])
- console.log(newArray)
+//  console.log(newArray)
  localStorage.setItem('imdb' , JSON.stringify(newArray));
   }
   function del(movie) {
