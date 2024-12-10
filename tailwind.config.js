@@ -1,10 +1,9 @@
-module.exports = {
+// tailwind.config.js
+export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}" // Example of adding another folder
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
-  
   theme: {
     extend: {},
   },

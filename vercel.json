@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+  
