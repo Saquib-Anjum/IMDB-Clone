@@ -49,7 +49,7 @@ const API_KEY = import.meta.env.VITE_API_KEY;
     }
   };
 
-  function add(movie){
+function add(movie){
  let newArray= [...favourite,movie];
  setFavourite([...newArray])
 //  console.log(newArray)
